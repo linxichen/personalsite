@@ -1,4 +1,33 @@
-theme: jekyll-theme-minimal
-title: Linxi Chen
-description: Hi! I am Linxi Chen
-show_downloads: false
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            Linxi Chen
+tagline:          'Personal Website'
+description:      'I am a Ph.D. candidate at the Duke economics department.'
+url:              http://
+baseurl:          /
+
+author:
+  name:           'Linxi Chen'
+  url:            https://twitter.com/mdo
+
+paginate:         1
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/linxichen
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - redcarpet
+
